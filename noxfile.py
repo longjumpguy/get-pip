@@ -3,9 +3,9 @@ import textwrap
 import webbrowser
 from pathlib import Path
 
-import nox
+import noxfile
 
-nox.options.sessions = ["check", "generate"]
+noxfile.options.sessions = ["check", "generate"]
 
 
 # Keep versions in sync with .github/workflows/check.yml
